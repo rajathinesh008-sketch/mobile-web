@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Illustration of a modern smartwatch">
+  <defs>
+    <radialGradient id="ag-watch" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#2563eb" stop-opacity=".28"/><stop offset="1" stop-color="#2563eb" stop-opacity="0"/></radialGradient>
+    <filter id="ash-watch" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="11"/></filter>
+    <linearGradient id="bandG" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1f2937"/><stop offset=".5" stop-color="#374151"/><stop offset="1" stop-color="#111827"/></linearGradient>
+ <linearGradient id="caseG2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#cbd5e1"/><stop offset=".5" stop-color="#64748b"/><stop offset="1" stop-color="#334155"/></linearGradient>
+ <linearGradient id="faceG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1e3a"/><stop offset="1" stop-color="#2563eb"/></linearGradient>
+  </defs>
+  <ellipse cx="200" cy="205" rx="165" ry="160" fill="url(#ag-watch)"/>
+  <ellipse cx="200" cy="338" rx="108" ry="13" fill="#000" opacity=".42" filter="url(#ash-watch)"/>
+  <rect x="163" y="62" width="74" height="92" rx="22" fill="url(#bandG)"/>
+ <rect x="163" y="248" width="74" height="94" rx="22" fill="url(#bandG)"/>
+ <rect x="132" y="128" width="136" height="150" rx="42" fill="url(#caseG2)"/>
+ <rect x="141" y="137" width="118" height="132" rx="35" fill="#050a12"/>
+ <rect x="145" y="141" width="110" height="124" rx="32" fill="url(#faceG)"/>
+ <circle cx="200" cy="203" r="36" fill="none" stroke="#38bdf8" stroke-width="5" opacity=".85"/>
+ <path d="M200 203 L200 180 M200 203 L218 214" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+ <text x="200" y="252" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#e2e8f0">10:09</text>
+ <rect x="268" y="168" width="9" height="26" rx="4" fill="#94a3b8"/>
+</svg>

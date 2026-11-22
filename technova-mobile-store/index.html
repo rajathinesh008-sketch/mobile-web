@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TECHNOVA | Premium Mobile Store — Smartphones &amp; Tech Accessories</title>
+  <meta name="description" content="TECHNOVA is a premium mobile store offering the latest smartphones, smartwatches, earbuds and accessories. Explore featured devices, exclusive deals and a modern shopping experience." />
+  <meta name="keywords" content="TECHNOVA, premium mobile store, smartphones, flagship phones, wireless earbuds, smartwatches, phone accessories, online mobile shop" />
+  <meta name="author" content="TECHNOVA" />
+  <meta name="theme-color" content="#080B12" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="TECHNOVA" />
+  <meta property="og:title" content="TECHNOVA | Premium Mobile Store" />
+  <meta property="og:description" content="Upgrade your world with smarter technology. Discover premium smartphones and accessories at unbeatable prices." />
+  <meta property="og:image" content="assets/images/hero-phone.svg" />
+  <meta property="og:url" content="https://technova.example.com/" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ============ SVG ICON SPRITE ============ -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true" focusable="false">
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></symbol>
+    <symbol id="i-cart" viewBox="0 0 24 24"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+    <symbol id="i-chevron-left" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></symbol>
+    <symbol id="i-chevron-right" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2Z"/></symbol>
+    <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-truck" viewBox="0 0 24 24"><path d="M10 17h4V5H2v12h3"/><path d="M20 17h2v-3.34a4 4 0 0 0-1.17-2.83L19 9h-5v8h1"/><circle cx="7.5" cy="17.5" r="2.5"/><circle cx="16.5" cy="17.5" r="2.5"/></symbol>
+    <symbol id="i-headset" viewBox="0 0 24 24"><path d="M3 14v-3a9 9 0 0 1 18 0v3"/><path d="M21 16a2 2 0 0 1-2 2h-1v-6h3v4Z"/><path d="M3 16a2 2 0 0 0 2 2h1v-6H3v4Z"/><path d="M19 18v1a2 2 0 0 1-2 2h-3"/></symbol>
+    <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="m8.21 13.89-1.21 8.11 5-3 5 3-1.21-8.11"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+    <symbol id="i-trash" viewBox="0 0 24 24"><path d="M3 6h18M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6M10 11v6M14 11v6"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></symbol>
+    <symbol id="i-twitter" viewBox="0 0 24 24"><path d="M18.9 2H22l-6.8 7.8L23.2 22h-6.3l-4.9-6.4L6.3 22H3.2l7.3-8.4L2.8 2h6.4l4.4 5.8L18.9 2Z"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-youtube" viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="m10 9 5 3-5 3V9Z"/></symbol>
+    <symbol id="i-filter" viewBox="0 0 24 24"><path d="M22 3H2l8 9.46V19l4 2v-8.54L22 3Z"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m20 6-11 11-5-5"/></symbol>
+    <symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8Z"/></symbol>
+    <symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></symbol>
+    <symbol id="i-tag" viewBox="0 0 24 24"><path d="M20.59 13.41 13.42 20.58a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82Z"/><circle cx="7" cy="7" r="1"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></symbol>
+    <symbol id="i-sparkle" viewBox="0 0 24 24"><path d="m12 2 1.8 5.2L19 9l-5.2 1.8L12 16l-1.8-5.2L5 9l5.2-1.8L12 2ZM19 15l.9 2.1L22 18l-2.1.9L19 21l-.9-2.1L16 18l2.1-.9L19 15Z"/></symbol>
+    <symbol id="i-star-fill" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2Z"/></symbol>
+  </svg>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-wrap">
+      <a href="#home" class="brand" aria-label="Technova home">
+        <span class="brand-mark" aria-hidden="true"><svg><use href="#i-sparkle"/></svg></span>
+        <span class="brand-text">TECHNOVA</span>
+      </a>
+
+      <nav class="primary-nav" id="primaryNav" aria-label="Primary navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#smartphones" class="nav-link">Smartphones</a>
+        <a href="#accessories" class="nav-link">Accessories</a>
+        <a href="#deals" class="nav-link">Deals</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="icon-btn" id="searchToggle" type="button" aria-label="Search products" title="Search products"><svg><use href="#i-search"/></svg></button>
+        <button class="icon-btn" id="wishlistToggle" type="button" aria-label="Open wishlist" title="Wishlist">
+          <svg><use href="#i-heart"/></svg><span class="badge" id="wishlistBadge" hidden>0</span>
+        </button>
+        <button class="icon-btn" id="cartToggle" type="button" aria-label="Open shopping cart" title="Cart">
+          <svg><use href="#i-cart"/></svg><span class="badge" id="cartBadge" hidden>0</span>
+        </button>
+        <button class="icon-btn account-btn" id="accountToggle" type="button" aria-label="Account" title="Account"><svg><use href="#i-user"/></svg></button>
+        <button class="icon-btn menu-btn" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primaryNav"><svg><use href="#i-menu"/></svg></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <div class="hero-glow hero-glow-one" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-two" aria-hidden="true"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <span class="eyebrow hero-anim" style="--d:.05s"><svg><use href="#i-sparkle"/></svg> Next-Gen Technology, Delivered</span>
+          <h1 class="hero-anim" style="--d:.12s">Upgrade Your World With <span class="gradient-text">Smarter Technology</span></h1>
+          <p class="hero-sub hero-anim" style="--d:.2s">Discover the latest smartphones, premium accessories, and next-generation technology at unbeatable prices.</p>
+          <div class="hero-actions hero-anim" style="--d:.28s">
+            <a href="#smartphones" class="btn btn-primary">Explore Smartphones <svg><use href="#i-arrow-right"/></svg></a>
+            <a href="#deals" class="btn btn-ghost">Shop Latest Deals <svg><use href="#i-tag"/></svg></a>
+          </div>
+          <div class="hero-stats hero-anim" style="--d:.36s">
+            <div><strong>50K+</strong><span>Happy Customers</span></div>
+            <div><strong>500+</strong><span>Premium Products</span></div>
+            <div><strong>4.9/5</strong><span>Average Rating</span></div>
+          </div>
+        </div>
+        <div class="hero-visual hero-anim" style="--d:.2s">
+          <div class="hero-orbit" aria-hidden="true"></div>
+          <div class="float-chip float-chip-top" aria-hidden="true"><svg><use href="#i-bolt"/></svg> 120W Fast Charge</div>
+          <div class="float-chip float-chip-bottom" aria-hidden="true"><svg><use href="#i-award"/></svg> Flagship Quality</div>
+          <img class="hero-phone" src="assets/images/hero-phone.svg" alt="Stylized illustration of a premium flagship smartphone with an electric blue display" fetchpriority="high" onerror="this.onerror=null;this.src='assets/images/phone-iphone.svg';" />
+        </div>
+      </div>
+      <a href="#categories" class="scroll-hint" aria-label="Scroll to categories"><span></span></a>
+    </section>
+
+    <!-- ============ CATEGORIES ============ -->
+    <section class="section categories-section" id="categories">
+      <div class="container">
+        <div class="section-head reveal" data-reveal>
+          <span class="eyebrow"><svg><use href="#i-grid"/></svg> Browse Collection</span>
+          <h2>Explore Our <span class="gradient-text">Categories</span></h2>
+          <p>Find exactly what you need — from flagship phones to everyday essentials.</p>
+        </div>
+        <div class="category-grid" id="categoryGrid">
+          <button class="category-card reveal" data-reveal data-category="Smartphones" type="button">
+            <span class="category-icon"><img src="assets/images/phone-iphone.svg" alt="Smartphones" loading="lazy" /></span>
+            <span class="category-body"><strong>Smartphones</strong><small>Flagship to budget-friendly</small></span>
+            <span class="category-go"><svg><use href="#i-arrow-right"/></svg></span>
+          </button>
+          <button class="category-card reveal" data-reveal data-category="Smart Watches" type="button">
+            <span class="category-icon"><img src="assets/images/acc-watch.svg" alt="Smart watches" loading="lazy" /></span>
+            <span class="category-body"><strong>Smart Watches</strong><small>Stay connected &amp; active</small></span>
+            <span class="category-go"><svg><use href="#i-arrow-right"/></svg></span>
+          </button>
+          <button class="category-card reveal" data-reveal data-category="Wireless Earbuds" type="button">
+            <span class="category-icon"><img src="assets/images/acc-earbuds.svg" alt="Wireless earbuds" loading="lazy" /></span>
+            <span class="category-body"><strong>Wireless Earbuds</strong><small>Immersive sound, anytime</small></span>
+            <span class="category-go"><svg><use href="#i-arrow-right"/></svg></span>
+          </button>
+          <button class="category-card reveal" data-reveal data-category="Fast Chargers" type="button">
+            <span class="category-icon"><img src="assets/images/acc-charger.svg" alt="Fast chargers" loading="lazy" /></span>
+            <span class="category-body"><strong>Fast Chargers</strong><small>Power up in minutes</small></span>
+            <span class="category-go"><svg><use href="#i-arrow-right"/></svg></span>
+          </button>
+          <button class="category-card reveal" data-reveal data-category="Phone Cases" type="button">
+            <span class="category-icon"><img src="assets/images/acc-case.svg" alt="Phone cases" loading="lazy" /></span>
+            <span class="category-body"><strong>Phone Cases</strong><small>Style meets protection</small></span>
+            <span class="category-go"><svg><use href="#i-arrow-right"/></svg></span>
+          </button>
+          <button class="category-card reveal" data-reveal data-category="Power Banks" type="button">
+            <span class="category-icon"><img src="assets/images/acc-powerbank.svg" alt="Power banks" loading="lazy" /></span>
+            <span class="category-body"><strong>Power Banks</strong><small>Energy on the go</small></span>
+            <span class="category-go"><svg><use href="#i-arrow-right"/></svg></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FEATURED SMARTPHONES + FILTERS ============ -->
+    <section class="section products-section" id="smartphones">
+      <div class="container">
+        <div class="section-head reveal" data-reveal>
+          <span class="eyebrow"><svg><use href="#i-sparkle"/></svg> Handpicked For You</span>
+          <h2>Featured <span class="gradient-text">Smartphones</span></h2>
+          <p>Discover powerful devices with stunning displays, pro cameras and all-day battery.</p>
+        </div>
+
+        <div class="filter-bar reveal" data-reveal role="search" aria-label="Product filters">
+          <div class="search-field">
+            <svg aria-hidden="true"><use href="#i-search"/></svg>
+            <input type="search" id="searchInput" placeholder="Search smartphones by name..." aria-label="Search smartphones by name" autocomplete="off" />
+          </div>
+          <div class="filter-selects">
+            <label class="select-wrap"><span class="sr-only">Filter by brand</span>
+              <select id="brandFilter" aria-label="Filter by brand"><option value="all">All Brands</option></select>
+            </label>
+            <label class="select-wrap"><span class="sr-only">Filter by price</span>
+              <select id="priceFilter" aria-label="Filter by price range">
+                <option value="all">All Prices</option>
+                <option value="0-50000">Under ₹50,000</option>
+                <option value="50000-80000">₹50,000 – ₹80,000</option>
+                <option value="80000-110000">₹80,000 – ₹1,10,000</option>
+                <option value="110000-9999999">Above ₹1,10,000</option>
+              </select>
+            </label>
+            <label class="select-wrap"><span class="sr-only">Sort products</span>
+              <select id="sortSelect" aria-label="Sort products">
+                <option value="featured">Sort: Featured</option>
+                <option value="low-high">Price: Low to High</option>
+                <option value="high-low">Price: High to Low</option>
+                <option value="rating">Top Rated</option>
+                <option value="discount">Biggest Discount</option>
+              </select>
+            </label>
+            <label class="select-wrap"><span class="sr-only">Filter by availability</span>
+              <select id="availabilityFilter" aria-label="Filter by availability">
+                <option value="all">All Stock</option>
+                <option value="in-stock">In Stock</option>
+                <option value="low-stock">Low Stock</option>
+              </select>
+            </label>
+            <button class="btn btn-clear" id="clearFilters" type="button"><svg><use href="#i-close"/></svg> Clear</button>
+          </div>
+        </div>
+
+        <div class="results-line"><span id="resultsCount">Showing 8 products</span><span class="filter-note">Prices are indicative demo catalogue values.</span></div>
+        <div class="product-grid" id="productGrid" aria-live="polite"></div>
+        <div class="no-results" id="noResults" hidden>
+          <svg><use href="#i-search"/></svg>
+          <h3>No products found</h3>
+          <p>Try a different search term or reset your filters.</p>
+          <button class="btn btn-primary" id="resetFilters" type="button">Clear All Filters</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SPECIAL OFFERS ============ -->
+    <section class="section deals-section" id="deals">
+      <div class="container">
+        <div class="section-head reveal" data-reveal>
+          <span class="eyebrow"><svg><use href="#i-tag"/></svg> Limited Offers</span>
+          <h2>Exclusive Deals <span class="gradient-text">Just For You</span></h2>
+          <p>Handpicked promotions to help you upgrade for less.</p>
+        </div>
+
+        <div class="countdown-panel reveal" data-reveal>
+          <div>
+            <span class="demo-pill">DEMO TIMER</span>
+            <h3>Flash Deal Ends In</h3>
+            <p>This is a demonstration countdown for a promotional offer. It loops automatically.</p>
+          </div>
+          <div class="countdown" id="countdown" aria-label="Demo promotional countdown timer">
+            <div><span id="cdHours">08</span><small>Hours</small></div>
+            <i>:</i>
+            <div><span id="cdMinutes">42</span><small>Minutes</small></div>
+            <i>:</i>
+            <div><span id="cdSeconds">15</span><small>Seconds</small></div>
+          </div>
+        </div>
+
+        <div class="offer-grid">
+          <article class="offer-card offer-one reveal" data-reveal>
+            <div class="offer-content">
+              <span class="offer-badge">UP TO 40% OFF</span>
+              <h3>Smartphone<br />Mega Sale</h3>
+              <p>Flagship favorites at prices that feel like a steal. Upgrade today.</p>
+              <a href="#smartphones" class="btn btn-light" data-offer-category="Smartphones">Shop Now <svg><use href="#i-arrow-right"/></svg></a>
+            </div>
+            <img src="assets/images/phone-samsung.svg" alt="Stylized premium smartphone illustration" loading="lazy" />
+          </article>
+          <article class="offer-card offer-two reveal" data-reveal>
+            <div class="offer-content">
+              <span class="offer-badge">FLAT 30% OFF</span>
+              <h3>Accessories<br />Special Offer</h3>
+              <p>Earbuds, watches, chargers and more — complete your setup.</p>
+              <a href="#accessories" class="btn btn-light" data-offer-category="Accessories">Shop Now <svg><use href="#i-arrow-right"/></svg></a>
+            </div>
+            <img src="assets/images/acc-earbuds.svg" alt="Wireless earbuds illustration" loading="lazy" />
+          </article>
+          <article class="offer-card offer-three reveal" data-reveal>
+            <div class="offer-content">
+              <span class="offer-badge">DEAL OF THE DAY</span>
+              <h3>Limited-Time<br />Tech Deals</h3>
+              <p>Grab the gadgets everyone wants before they're gone.</p>
+              <a href="#smartphones" class="btn btn-light">Shop Now <svg><use href="#i-arrow-right"/></svg></a>
+            </div>
+            <img src="assets/images/phone-nothing.svg" alt="Stylized smartphone illustration" loading="lazy" />
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WHY CHOOSE US ============ -->
+    <section class="section why-section" id="about">
+      <div class="container">
+        <div class="section-head reveal" data-reveal>
+          <span class="eyebrow"><svg><use href="#i-award"/></svg> The Technova Promise</span>
+          <h2>Why Shop With <span class="gradient-text">Us?</span></h2>
+          <p>A premium shopping experience built on trust, speed and support.</p>
+        </div>
+        <div class="why-grid">
+          <article class="why-card reveal" data-reveal>
+            <span class="why-icon"><svg><use href="#i-shield"/></svg></span>
+            <h3>Genuine Products</h3>
+            <p>Every device is sourced from authorised channels, so you always get the real thing.</p>
+          </article>
+          <article class="why-card reveal" data-reveal>
+            <span class="why-icon"><svg><use href="#i-bolt"/></svg></span>
+            <h3>Secure Shopping</h3>
+            <p>Your data stays protected with secure, encrypted browsing across our demo store.</p>
+          </article>
+          <article class="why-card reveal" data-reveal>
+            <span class="why-icon"><svg><use href="#i-truck"/></svg></span>
+            <h3>Fast Delivery</h3>
+            <p>Quick dispatch and reliable shipping partners get your tech to you sooner.</p>
+          </article>
+          <article class="why-card reveal" data-reveal>
+            <span class="why-icon"><svg><use href="#i-headset"/></svg></span>
+            <h3>Customer Support</h3>
+            <p>Our friendly team is here to help with questions before and after your purchase.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ACCESSORIES ============ -->
+    <section class="section accessories-section" id="accessories">
+      <div class="container">
+        <div class="section-head reveal" data-reveal>
+          <span class="eyebrow"><svg><use href="#i-sparkle"/></svg> Tech Essentials</span>
+          <h2>Complete Your <span class="gradient-text">Tech Setup</span></h2>
+          <p>Powerful little upgrades that make a big difference every day.</p>
+        </div>
+        <div class="product-grid accessory-grid" id="accessoriesGrid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- ============ REVIEWS ============ -->
+    <section class="section reviews-section">
+      <div class="container">
+        <div class="section-head reveal" data-reveal>
+          <span class="eyebrow"><svg><use href="#i-star"/></svg> Customer Stories</span>
+          <h2>What Our <span class="gradient-text">Customers Say</span></h2>
+          <p>Real feedback from happy tech lovers. <small>(Fictional sample reviews for demonstration.)</small></p>
+        </div>
+        <div class="carousel reveal" data-reveal>
+          <div class="carousel-viewport">
+            <div class="carousel-track" id="reviewTrack"></div>
+          </div>
+          <div class="carousel-controls">
+            <button class="carousel-btn" id="reviewPrev" type="button" aria-label="Previous review"><svg><use href="#i-chevron-left"/></svg></button>
+            <div class="carousel-dots" id="reviewDots" aria-label="Review pages"></div>
+            <button class="carousel-btn" id="reviewNext" type="button" aria-label="Next review"><svg><use href="#i-chevron-right"/></svg></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ NEWSLETTER ============ -->
+    <section class="section newsletter-section">
+      <div class="container">
+        <div class="newsletter-box reveal" data-reveal>
+          <div class="newsletter-copy">
+            <span class="eyebrow"><svg><use href="#i-mail"/></svg> Stay In The Loop</span>
+            <h2>Stay Updated With <span class="gradient-text">TechNova</span></h2>
+            <p>Subscribe to receive updates about new launches, exclusive deals, and exciting technology.</p>
+            <p class="demo-note">Frontend demo only — no emails are actually sent or stored on a server.</p>
+          </div>
+          <form class="newsletter-form" id="newsletterForm" novalidate>
+            <div class="newsletter-input-row">
+              <label class="sr-only" for="newsletterEmail">Email address</label>
+              <input type="email" id="newsletterEmail" name="email" placeholder="Enter your email address" autocomplete="email" required />
+              <button class="btn btn-primary" type="submit">Subscribe <svg><use href="#i-arrow-right"/></svg></button>
+            </div>
+            <p class="form-error" id="newsletterError" role="alert" hidden></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-head reveal" data-reveal>
+          <span class="eyebrow"><svg><use href="#i-headset"/></svg> Get In Touch</span>
+          <h2>Contact Our <span class="gradient-text">Team</span></h2>
+          <p>Have a question? Reach out using the demo details below.</p>
+        </div>
+        <div class="contact-layout">
+          <div class="contact-info reveal" data-reveal>
+            <div class="contact-item"><span class="contact-icon"><svg><use href="#i-pin"/></svg></span><div><h3>Store Address</h3><p>21 Innovation Street, Tech District<br />Bengaluru, Karnataka 560001, India<br /><small>Fictional demonstration address</small></p></div></div>
+            <div class="contact-item"><span class="contact-icon"><svg><use href="#i-phone"/></svg></span><div><h3>Phone Number</h3><p>+91 90000 00000<br /><small>Fictional demonstration number</small></p></div></div>
+            <div class="contact-item"><span class="contact-icon"><svg><use href="#i-mail"/></svg></span><div><h3>Email Address</h3><p>hello@technova.example<br /><small>Fictional demonstration email</small></p></div></div>
+            <div class="contact-item"><span class="contact-icon"><svg><use href="#i-clock"/></svg></span><div><h3>Opening Hours</h3><p>Mon – Sat: 10:00 AM – 8:00 PM<br />Sunday: 11:00 AM – 6:00 PM</p></div></div>
+            <div class="social-row">
+              <a href="#contact" aria-label="Facebook" title="Facebook"><svg><use href="#i-facebook"/></svg></a>
+              <a href="#contact" aria-label="Twitter" title="Twitter"><svg><use href="#i-twitter"/></svg></a>
+              <a href="#contact" aria-label="Instagram" title="Instagram"><svg><use href="#i-instagram"/></svg></a>
+              <a href="#contact" aria-label="YouTube" title="YouTube"><svg><use href="#i-youtube"/></svg></a>
+            </div>
+          </div>
+          <form class="contact-form reveal" id="contactForm" novalidate data-reveal>
+            <h3>Send Us a Message</h3>
+            <p class="demo-note">Frontend demo only — messages are validated locally and not delivered to any business.</p>
+            <div class="form-row">
+              <div class="form-field"><label for="contactName">Full name</label><input type="text" id="contactName" name="name" placeholder="Your name" required /><small class="form-error" data-error-for="contactName" hidden></small></div>
+              <div class="form-field"><label for="contactEmail">Email address</label><input type="email" id="contactEmail" name="email" placeholder="you@example.com" required /><small class="form-error" data-error-for="contactEmail" hidden></small></div>
+            </div>
+            <div class="form-field"><label for="contactSubject">Subject</label><input type="text" id="contactSubject" name="subject" placeholder="What is this about?" required /><small class="form-error" data-error-for="contactSubject" hidden></small></div>
+            <div class="form-field"><label for="contactMessage">Message</label><textarea id="contactMessage" name="message" rows="5" placeholder="Write your message..." required></textarea><small class="form-error" data-error-for="contactMessage" hidden></small></div>
+            <button class="btn btn-primary btn-block" type="submit">Send Message <svg><use href="#i-arrow-right"/></svg></button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="brand"><span class="brand-mark" aria-hidden="true"><svg><use href="#i-sparkle"/></svg></span><span class="brand-text">TECHNOVA</span></a>
+        <p>Your destination for premium smartphones and next-generation tech. Quality you can trust, style you'll love.</p>
+        <div class="social-row">
+          <a href="#contact" aria-label="Facebook"><svg><use href="#i-facebook"/></svg></a>
+          <a href="#contact" aria-label="Twitter"><svg><use href="#i-twitter"/></svg></a>
+          <a href="#contact" aria-label="Instagram"><svg><use href="#i-instagram"/></svg></a>
+          <a href="#contact" aria-label="YouTube"><svg><use href="#i-youtube"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col"><h3>Quick Links</h3><a href="#home">Home</a><a href="#smartphones">Smartphones</a><a href="#accessories">Accessories</a><a href="#deals">Deals</a><a href="#about">About Us</a><a href="#contact">Contact</a></div>
+      <div class="footer-col"><h3>Categories</h3><a href="#smartphones">Smartphones</a><a href="#accessories">Smart Watches</a><a href="#accessories">Wireless Earbuds</a><a href="#accessories">Fast Chargers</a><a href="#accessories">Power Banks</a></div>
+      <div class="footer-col"><h3>Customer Support</h3><a href="#contact">Help Center</a><a href="#contact">Shipping Info</a><a href="#contact">Returns &amp; Refunds</a><a href="#contact">Privacy Policy</a><a href="#contact">Terms of Service</a></div>
+      <div class="footer-col"><h3>Contact Details</h3><p>21 Innovation Street<br />Bengaluru, Karnataka 560001<br />India</p><p>+91 90000 00000</p><p>hello@technova.example</p></div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 TECHNOVA. All Rights Reserved.</p>
+      <p class="footer-demo">Frontend demonstration project — no real orders or payments are processed.</p>
+    </div>
+  </footer>
+
+  <!-- ============ PRODUCT DETAILS MODAL ============ -->
+  <div class="modal-overlay" id="modalOverlay" hidden>
+    <div class="modal" id="productModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close icon-btn" id="modalClose" type="button" aria-label="Close product details"><svg><use href="#i-close"/></svg></button>
+      <div class="modal-gallery">
+        <div class="modal-main-image"><img id="modalMainImage" src="assets/images/phone-iphone.svg" alt="Product illustration" /></div>
+        <div class="modal-thumbs" id="modalThumbs"></div>
+      </div>
+      <div class="modal-info">
+        <span class="modal-brand" id="modalBrand"></span>
+        <h2 id="modalTitle"></h2>
+        <div class="modal-rating" id="modalRating"></div>
+        <div class="modal-price"><span id="modalPrice"></span><del id="modalOldPrice"></del><span class="discount-pill" id="modalDiscount"></span></div>
+        <p class="modal-desc" id="modalDesc"></p>
+        <div class="modal-specs" id="modalSpecs"></div>
+        <div class="modal-option"><h4>Available Colors</h4><div class="swatches" id="modalColors"></div></div>
+        <div class="modal-option" id="storageOption"><h4>Storage</h4><div class="storage-options" id="modalStorage"></div></div>
+        <div class="modal-option"><h4>Quantity</h4><div class="qty-control"><button type="button" id="modalQtyMinus" aria-label="Decrease quantity"><svg><use href="#i-minus"/></svg></button><span id="modalQty">1</span><button type="button" id="modalQtyPlus" aria-label="Increase quantity"><svg><use href="#i-plus"/></svg></button></div></div>
+        <button class="btn btn-primary btn-block" id="modalAddToCart" type="button"><svg><use href="#i-cart"/></svg> Add To Cart</button>
+        <button class="btn btn-outline btn-block" id="modalWishlist" type="button"><svg><use href="#i-heart"/></svg> Add To Wishlist</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ CART DRAWER ============ -->
+  <div class="drawer-overlay" id="cartOverlay" hidden></div>
+  <aside class="drawer" id="cartDrawer" role="dialog" aria-modal="true" aria-labelledby="cartTitle" aria-hidden="true">
+    <div class="drawer-head"><div><h2 id="cartTitle">Your Cart</h2><span id="cartSubtitle">0 items</span></div><button class="icon-btn" id="cartClose" type="button" aria-label="Close cart"><svg><use href="#i-close"/></svg></button></div>
+    <div class="drawer-body" id="cartItems"></div>
+    <div class="drawer-foot" id="cartFoot">
+      <div class="totals">
+        <div><span>Subtotal</span><strong id="cartSubtotal">₹0</strong></div>
+        <div><span>Delivery</span><strong id="cartDelivery">₹0</strong></div>
+        <div class="grand-total"><span>Grand Total</span><strong id="cartTotal">₹0</strong></div>
+      </div>
+      <button class="btn btn-primary btn-block" id="checkoutBtn" type="button">Proceed to Checkout <svg><use href="#i-arrow-right"/></svg></button>
+      <button class="btn btn-outline btn-block" id="continueShopping" type="button">Continue Shopping</button>
+      <p class="drawer-note">Demo checkout only — no real payments are processed.</p>
+    </div>
+  </aside>
+
+  <!-- ============ WISHLIST DRAWER ============ -->
+  <div class="drawer-overlay" id="wishlistOverlay" hidden></div>
+  <aside class="drawer" id="wishlistDrawer" role="dialog" aria-modal="true" aria-labelledby="wishlistTitle" aria-hidden="true">
+    <div class="drawer-head"><div><h2 id="wishlistTitle">Your Wishlist</h2><span id="wishlistSubtitle">0 saved items</span></div><button class="icon-btn" id="wishlistClose" type="button" aria-label="Close wishlist"><svg><use href="#i-close"/></svg></button></div>
+    <div class="drawer-body" id="wishlistItems"></div>
+    <div class="drawer-foot"><button class="btn btn-outline btn-block" id="wishlistContinue" type="button">Continue Shopping</button><p class="drawer-note">Wishlist is saved locally in your browser.</p></div>
+  </aside>
+
+  <!-- ============ ACCOUNT MODAL ============ -->
+  <div class="modal-overlay" id="accountOverlay" hidden>
+    <div class="account-modal" role="dialog" aria-modal="true" aria-labelledby="accountTitle">
+      <button class="modal-close icon-btn" id="accountClose" type="button" aria-label="Close account panel"><svg><use href="#i-close"/></svg></button>
+      <span class="account-illustration"><svg><use href="#i-user"/></svg></span>
+      <h2 id="accountTitle">Your Account</h2>
+      <p class="demo-note">Demo sign-in — credentials are validated locally and nothing is sent anywhere.</p>
+      <form id="accountForm" novalidate>
+        <div class="form-field"><label for="accountEmail">Email address</label><input type="email" id="accountEmail" placeholder="you@example.com" required /></div>
+        <div class="form-field"><label for="accountPassword">Password</label><input type="password" id="accountPassword" placeholder="At least 6 characters" minlength="6" required /></div>
+        <p class="form-error" id="accountError" role="alert" hidden></p>
+        <button class="btn btn-primary btn-block" type="submit">Sign In (Demo)</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ============ BACK TO TOP ============ -->
+  <button class="back-to-top" id="backToTop" type="button" aria-label="Back to top" title="Back to top"><svg><use href="#i-arrow-up"/></svg></button>
+
+  <!-- ============ TOAST CONTAINER ============ -->
+  <div class="toast-container" id="toastContainer" aria-live="polite" aria-atomic="true"></div>
+
+  <script src="js/products.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

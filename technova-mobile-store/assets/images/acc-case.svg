@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Illustration of a protective phone case">
+  <defs>
+    <radialGradient id="ag-case" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#2563eb" stop-opacity=".28"/><stop offset="1" stop-color="#2563eb" stop-opacity="0"/></radialGradient>
+    <filter id="ash-case" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="11"/></filter>
+    <linearGradient id="caseC" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b82f6" stop-opacity=".55"/><stop offset="1" stop-color="#1e3a8a" stop-opacity=".35"/></linearGradient>
+  </defs>
+  <ellipse cx="200" cy="205" rx="165" ry="160" fill="url(#ag-case)"/>
+  <ellipse cx="200" cy="338" rx="108" ry="13" fill="#000" opacity=".42" filter="url(#ash-case)"/>
+  <rect x="132" y="72" width="136" height="256" rx="30" fill="url(#caseC)" stroke="#60a5fa" stroke-width="7"/>
+ <rect x="146" y="86" width="108" height="228" rx="20" fill="none" stroke="#93c5fd" stroke-opacity=".5" stroke-width="2"/>
+ <rect x="154" y="94" width="62" height="62" rx="18" fill="none" stroke="#60a5fa" stroke-width="5"/>
+ <circle cx="172" cy="112" r="8" fill="none" stroke="#93c5fd" stroke-width="4"/>
+ <circle cx="198" cy="112" r="8" fill="none" stroke="#93c5fd" stroke-width="4"/>
+ <circle cx="172" cy="138" r="8" fill="none" stroke="#93c5fd" stroke-width="4"/>
+ <rect x="268" y="150" width="6" height="40" rx="3" fill="#60a5fa"/>
+ <rect x="126" y="160" width="6" height="52" rx="3" fill="#60a5fa"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Illustration of white wireless earbuds with charging case">
+  <defs>
+    <radialGradient id="ag-buds" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#2563eb" stop-opacity=".28"/><stop offset="1" stop-color="#2563eb" stop-opacity="0"/></radialGradient>
+    <filter id="ash-buds" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="11"/></filter>
+    <linearGradient id="caseG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#cbd5e1"/></linearGradient>
+ <linearGradient id="budG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#dbe3ec"/></linearGradient>
+  </defs>
+  <ellipse cx="200" cy="205" rx="165" ry="160" fill="url(#ag-buds)"/>
+  <ellipse cx="200" cy="338" rx="108" ry="13" fill="#000" opacity=".42" filter="url(#ash-buds)"/>
+  <g transform="translate(0,4)">
+  <rect x="126" y="214" width="148" height="92" rx="34" fill="url(#caseG)"/>
+  <rect x="126" y="214" width="148" height="92" rx="34" fill="none" stroke="#94a3b8" stroke-opacity=".5" stroke-width="2"/>
+  <path d="M126 252 H274" stroke="#94a3b8" stroke-width="2" opacity=".5"/>
+  <circle cx="200" cy="286" r="4" fill="#2563eb"/>
+  <g transform="translate(150,96) rotate(-14)">
+    <ellipse cx="22" cy="26" rx="24" ry="22" fill="url(#budG)"/>
+    <rect x="10" y="34" width="20" height="66" rx="10" fill="url(#budG)"/>
+    <ellipse cx="30" cy="26" rx="9" ry="8" fill="#334155" opacity=".85"/>
+  </g>
+  <g transform="translate(228,96) rotate(14)">
+    <ellipse cx="22" cy="26" rx="24" ry="22" fill="url(#budG)"/>
+    <rect x="14" y="34" width="20" height="66" rx="10" fill="url(#budG)"/>
+    <ellipse cx="14" cy="26" rx="9" ry="8" fill="#334155" opacity=".85"/>
+  </g>
+</g>
+</svg>

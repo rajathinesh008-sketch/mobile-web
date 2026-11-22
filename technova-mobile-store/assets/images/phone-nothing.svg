@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 560" role="img" aria-label="Stylized illustration of a transparent-design smartphone">
+  <defs>
+    <linearGradient id="b-nothing" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d1d5db"/><stop offset=".5" stop-color="#9ca3af"/><stop offset="1" stop-color="#4b5563"/></linearGradient>
+    <linearGradient id="s-nothing" x1="0" y1="0" x2=".85" y2="1"><stop offset="0" stop-color="#111827"/><stop offset=".55" stop-color="#1f2937"/><stop offset="1" stop-color="#ef4444"/></linearGradient>
+    <radialGradient id="g-nothing" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#f43f5e" stop-opacity=".45"/><stop offset="1" stop-color="#f43f5e" stop-opacity="0"/></radialGradient>
+    <linearGradient id="r-nothing" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".24"/><stop offset=".45" stop-color="#fff" stop-opacity=".03"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <filter id="sh-nothing" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+  <ellipse cx="230" cy="285" rx="185" ry="225" fill="url(#g-nothing)"/>
+  <ellipse cx="230" cy="516" rx="118" ry="15" fill="#000" opacity=".5" filter="url(#sh-nothing)"/>
+  <rect x="96" y="52" width="272" height="452" rx="46" fill="#03050a" opacity=".92"/>
+  <rect x="88" y="44" width="272" height="452" rx="46" fill="url(#b-nothing)"/>
+  <rect x="88" y="44" width="272" height="452" rx="46" fill="none" stroke="#fff" stroke-opacity=".3" stroke-width="2"/>
+  <rect x="96" y="52" width="256" height="436" rx="40" fill="#04060b"/>
+  <rect x="102" y="58" width="244" height="424" rx="35" fill="url(#s-nothing)"/>
+  <circle cx="160" cy="175" r="118" fill="#f87171" opacity=".2"/>
+  <circle cx="305" cy="410" r="150" fill="#fff" opacity=".06"/>
+  <path d="M102 372 Q 205 292 346 352 L346 482 Q 220 500 102 466 Z" fill="#f87171" opacity=".14"/>
+  <path d="M102 120 Q 230 178 346 120 L346 58 L102 58 Z" fill="#fff" opacity=".05"/>
+  <rect x="102" y="58" width="244" height="424" rx="35" fill="url(#r-nothing)"/>
+  <rect x="186" y="68" width="76" height="22" rx="11" fill="#04060b"/><circle cx="250" cy="79" r="4" fill="#0f172a"/><circle cx="250" cy="79" r="1.6" fill="#1e3a5f"/>
+  <rect x="84" y="150" width="4" height="32" rx="2" fill="#cbd5e1" opacity=".45"/>
+  <rect x="84" y="196" width="4" height="52" rx="2" fill="#cbd5e1" opacity=".45"/>
+  <rect x="360" y="176" width="4" height="68" rx="2" fill="#cbd5e1" opacity=".45"/>
+</svg>

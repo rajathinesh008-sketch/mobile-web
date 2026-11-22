@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Illustration of a fast wall charger with cable">
+  <defs>
+    <radialGradient id="ag-charger" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#2563eb" stop-opacity=".28"/><stop offset="1" stop-color="#2563eb" stop-opacity="0"/></radialGradient>
+    <filter id="ash-charger" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="11"/></filter>
+    <linearGradient id="brickG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f1f5f9"/><stop offset="1" stop-color="#94a3b8"/></linearGradient>
+  </defs>
+  <ellipse cx="200" cy="205" rx="165" ry="160" fill="url(#ag-charger)"/>
+  <ellipse cx="200" cy="338" rx="108" ry="13" fill="#000" opacity=".42" filter="url(#ash-charger)"/>
+  <rect x="176" y="120" width="9" height="40" rx="3" fill="#94a3b8"/>
+ <rect x="215" y="120" width="9" height="40" rx="3" fill="#94a3b8"/>
+ <rect x="142" y="156" width="116" height="112" rx="26" fill="url(#brickG)"/>
+ <rect x="142" y="156" width="116" height="112" rx="26" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="2"/>
+ <rect x="182" y="256" width="36" height="9" rx="4" fill="#334155"/>
+ <path d="M200 268 C200 300 268 292 268 322" fill="none" stroke="#0f172a" stroke-width="12" stroke-linecap="round"/>
+ <path d="M200 268 C200 300 268 292 268 322" fill="none" stroke="#334155" stroke-width="6" stroke-linecap="round"/>
+ <rect x="258" y="316" width="22" height="26" rx="6" fill="#64748b" transform="rotate(12 269 329)"/>
+ <text x="200" y="214" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="800" fill="#475569">65W</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Illustration of a portable power bank">
+  <defs>
+    <radialGradient id="ag-bank" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#2563eb" stop-opacity=".28"/><stop offset="1" stop-color="#2563eb" stop-opacity="0"/></radialGradient>
+    <filter id="ash-bank" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="11"/></filter>
+    <linearGradient id="pbG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#273449"/><stop offset="1" stop-color="#0b1220"/></linearGradient>
+  </defs>
+  <ellipse cx="200" cy="205" rx="165" ry="160" fill="url(#ag-bank)"/>
+  <ellipse cx="200" cy="338" rx="108" ry="13" fill="#000" opacity=".42" filter="url(#ash-bank)"/>
+  <rect x="112" y="138" width="176" height="124" rx="24" fill="url(#pbG)"/>
+ <rect x="112" y="138" width="176" height="124" rx="24" fill="none" stroke="#3b82f6" stroke-opacity=".4" stroke-width="2"/>
+ <rect x="124" y="150" width="152" height="24" rx="12" fill="#fff" opacity=".05"/>
+ <rect x="150" y="196" width="100" height="14" rx="7" fill="#0b1220"/>
+ <circle cx="166" cy="203" r="4" fill="#22c55e"/><circle cx="186" cy="203" r="4" fill="#22c55e"/><circle cx="206" cy="203" r="4" fill="#22c55e"/><circle cx="226" cy="203" r="4" fill="#334155"/>
+ <text x="200" y="240" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="800" fill="#e2e8f0">20,000 mAh</text>
+ <rect x="292" y="190" width="16" height="20" rx="4" fill="#475569"/>
+ <rect x="292" y="222" width="16" height="14" rx="4" fill="#475569"/>
+</svg>
